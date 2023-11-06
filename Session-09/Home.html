@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function Header() {
+        return (
+          <div>
+            <h2>Header Section</h2>
+          </div>
+        );
+      }
+
+      function Main() {
+        return (
+          <div>
+            <h2>Main Section</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
+              ut beatae deserunt recusandae eligendi vel tenetur doloremque
+              blanditiis sequi quaerat distinctio molestias quisquam
+              reprehenderit dignissimos, minus natus praesentium nesciunt cum
+              quibusdam suscipit saepe. Ratione molestias nihil tenetur, ducimus
+              cum quisquam, unde quibusdam nobis voluptatum saepe quis sequi
+              nisi eos omnis?
+            </p>
+          </div>
+        );
+      }
+
+      function Footer() {
+        return (
+          <div>
+            <h4>Footer Section</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              libero sunt quas temporibus. Magnam, architecto!
+            </p>
+          </div>
+        );
+      }
+
+      function MyMain() {
+        return (
+          <div>
+            <div>
+              <Header />
+            </div>
+            <div>
+              <Main />
+              <Main />
+            </div>
+            <div>
+              <Footer />
+            </div>
+          </div>
+        );
+      }
+
+      ReactDOM.render(<MyMain />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

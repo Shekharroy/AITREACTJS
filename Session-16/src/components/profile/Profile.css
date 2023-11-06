@@ -1,0 +1,18 @@
+.profileContainer {
+  box-shadow: 0 0 10px green;
+  width: 900px;
+  height: 400px;
+  margin: 30px auto;
+  display: flex;
+}
+.imageSection {
+  width: 35%;
+}
+.contentSection {
+  padding: 30px;
+  width: 65%;
+}
+.MainContainer h2 {
+  text-align: center;
+  margin-top: 70px;
+}

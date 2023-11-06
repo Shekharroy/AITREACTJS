@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function Container(props) {
+        //properties = {title:"",bgColor:"black"}
+        var styles = {
+          backgroundColor: props.bgColor,
+          color: "white",
+          padding: "30px",
+          boxShadow: "0 0 10px red",
+          margin: "50px",
+        };
+        return (
+          <div style={styles}>
+            <h2>{props.title}</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              esse doloremque numquam quas repudiandae harum consequuntur
+              deserunt quo laboriosam sit rerum dolores atque sed nostrum
+              provident obcaecati libero, praesentium assumenda totam.
+              Perspiciatis, voluptatum non rem repudiandae adipisci, asperiores
+              iste ipsum, quibusdam magnam fuga aliquid repellendus ab porro
+              odit atque error.
+            </p>
+          </div>
+        );
+      }
+
+      function Main() {
+        return (
+          <div>
+            <Container title="Header - 1" bgColor="black" />
+            <Container title="Header - 2" bgColor="red" />
+            <Container title="Header - 3" bgColor="orange" />
+          </div>
+        );
+      }
+
+      ReactDOM.render(<Main />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

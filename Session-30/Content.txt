@@ -1,0 +1,29 @@
+https://drive.google.com/file/d/1qtZNcIHirSdiIF8O6Fz4LwZGLLm0WbUe/view?usp=sharing
+
+
+https://6378eaeb82dd306634a35028--peppy-sherbet-2368e1.netlify.app/products/electronic
+
+
+RandomUser.me
+----------------
+https://randomuser.me/api/?results=30
+
+
+https://6378eaeb82dd306634a35028--peppy-sherbet-2368e1.netlify.app/users
+
+
+Electronic api
+---------------
+https://fakestoreapi.com/products/category/electronics
+
+Jewelery api
+------------
+https://fakestoreapi.com/products/category/jewelery
+
+Mens Clothing
+--------------
+https://fakestoreapi.com/products/category/men's clothing
+
+Women's Clothing
+-----------------
+https://fakestoreapi.com/products/category/women's clothing

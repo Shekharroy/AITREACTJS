@@ -1,0 +1,28 @@
+.Nav {
+  height: 70px;
+  background: linear-gradient(45deg, black, darkred);
+  display: flex;
+}
+.Title {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Menu {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title h2 {
+  margin: 0;
+  color: cornsilk;
+}
+
+.Menu a {
+  color: cornsilk;
+  text-decoration: none;
+  margin-right: 50px;
+}
